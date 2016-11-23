@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
         TextView textView = (TextView) findViewById(R.id.serkan);
         textView.setText("Merge is successful");
-
-        Toast.makeText(this, "I'm not a conflict", Toast.LENGTH_SHORT).show();
+        
+        Toast.makeText(this, "I'm a conflict!", Toast.LENGTH_SHORT).show();
 
         Button button = (Button) findViewById(R.id.button);
 
