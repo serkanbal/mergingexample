@@ -11,7 +11,21 @@
     tools:context="net.serkanbal.mergingexample.MainActivity">
 
     <TextView
+        android:id="@+id/justin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Justin!" />
+    <TextView
+        android:id="@+id/serkan"
+        android:layout_below="@id/justin"
+        android:text="Serkan!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/button"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DO NOT PRESS THIS BUTTON"/>
+    
 </RelativeLayout>
